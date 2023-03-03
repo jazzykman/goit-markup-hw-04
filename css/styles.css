@@ -15,7 +15,6 @@ body {
   letter-spacing: 0.02em;
   max-width: 1440px;
 }
-
 ul {
   margin: 0;
   padding: 0;
@@ -254,6 +253,7 @@ img {
 .socials-links:not(:last-child) {
   margin-right: 24px;
 }
+.socials-links:focus,
 .socials-links:hover {
   background-color: #404bbf;
 }
@@ -288,6 +288,7 @@ img {
 .company-icons {
   fill: #8e8f99;
 }
+.company-icons:focus,
 .company-icons:hover {
   fill: #404bbf;
 }
@@ -300,9 +301,11 @@ img {
 .company-links {
   padding: 16px 32px;
 }
+.company-links:focus .company-icons,
 .company-links:hover .company-icons {
   fill: #404bbf;
 }
+.company-logo:focus,
 .company-logo:hover {
   border: 1px solid #404bbf;
 }
@@ -357,6 +360,7 @@ img {
   justify-content: center;
   align-items: center;
 }
+.footer-links:focus,
 .footer-links:hover {
   background: #31d0aa;
 }
@@ -391,7 +395,7 @@ img {
   border: 1px solid #e7e9fc;
   border-radius: 4px;
 }
-
+.list-button:focus,
 .list-button:hover {
   background-color: #404bbf;
   color: #ffffff;
