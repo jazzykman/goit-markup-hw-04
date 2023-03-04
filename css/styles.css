@@ -91,6 +91,12 @@ img {
 .header-links:focus {
   color: #404bbf;
 }
+.studio-link {
+  color: #404bbf;
+}
+.portfolio-link {
+  color: #404bbf;
+}
 .mail-tel {
   font-style: normal;
   color: #434455;
