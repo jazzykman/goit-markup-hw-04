@@ -229,6 +229,9 @@ img {
   line-height: 1.2;
   text-align: center;
 }
+.workers-media {
+  padding: 0 16px 32px;
+}
 .workers-activity {
   color: #434455;
   text-align: center;
@@ -257,14 +260,9 @@ img {
 .socials-links:hover {
   background-color: #404bbf;
 }
-.cards {
-  display: flex;
-  padding-bottom: 32px;
-  padding-left: 16px;
-  padding-right: 16px;
-}
+
 .customers-section {
-  padding: 130px 156px 120px;
+  padding: 130px 0px 120px;
 }
 .customers-title {
   font-weight: 700;
@@ -278,14 +276,10 @@ img {
 .company-list {
   display: flex;
 }
-.company-logo {
-  display: inline-flex;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  width: 168px;
-  height: 88px;
-}
 .company-icons {
+  display: flex;
+  justify-content: center;
+  align-self: center;
   fill: #8e8f99;
 }
 .company-icons:focus,
@@ -300,13 +294,17 @@ img {
 }
 .company-links {
   padding: 16px 32px;
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
 }
 .company-links:focus .company-icons,
 .company-links:hover .company-icons {
   fill: #404bbf;
 }
-.company-logo:focus,
-.company-logo:hover {
+.company-links:focus,
+.company-links:hover {
   border: 1px solid #404bbf;
 }
 
@@ -440,6 +438,7 @@ img {
   flex-wrap: wrap;
 }
 .image-item {
+  display: flex;
   margin-right: 24px;
   margin-bottom: 48px;
 }
@@ -448,4 +447,11 @@ img {
 }
 .image-item:nth-child(3n) {
   margin-right: 0;
+}
+.portfolio-services-link {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.portfolio-services-link:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
