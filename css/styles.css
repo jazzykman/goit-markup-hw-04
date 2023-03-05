@@ -237,11 +237,15 @@ img {
 }
 .workers-media {
   padding: 0 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
 }
 .workers-activity {
   color: #434455;
   text-align: center;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .our-team {
   background-color: #f4f4fd;
@@ -283,9 +287,6 @@ img {
   display: flex;
 }
 .company-icons {
-  display: flex;
-  justify-content: center;
-  align-self: center;
   fill: #8e8f99;
 }
 .company-icons:focus,
@@ -299,7 +300,10 @@ img {
   margin-right: 24px;
 }
 .company-links {
-  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   width: 168px;
   height: 88px;
   border: 1px solid #8e8f99;
@@ -311,7 +315,7 @@ img {
 }
 .company-links:focus,
 .company-links:hover {
-  border: 1px solid #404bbf;
+  border-color: 1px solid #404bbf;
 }
 
 .footer {
@@ -367,14 +371,6 @@ img {
 .footer-links:focus,
 .footer-links:hover {
   background: #31d0aa;
-}
-.media-items:not(:last-child) {
-  margin-right: 16px;
-}
-.media-items {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
 }
 .footer-above-media {
   font-weight: 500;
@@ -453,9 +449,6 @@ img {
 }
 .image-item:nth-child(3n) {
   margin-right: 0;
-}
-.portfolio-services-link {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .portfolio-services-link:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
